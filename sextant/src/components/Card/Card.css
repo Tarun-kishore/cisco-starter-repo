@@ -1,7 +1,18 @@
 .card-body{
-    flex: 0 0 calc(33.33% - 1rem);
+    flex:1;
+    /*flex: 0 0 calc(33.33% - 1rem);*/
     background:var(--card-color);
     min-width:10rem;
     border-radius:1rem;
-    padding:0.5rem;
+    padding:1rem;
+    text-align:center;
+}
+
+.card-title{
+    color:var(--heading-color);
+    font-weight:bold; 
+}
+
+.card-content{
+    color:var(--text-color);
 }

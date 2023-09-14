@@ -1,13 +1,13 @@
 import '../../global.css'
 import './Card.css'
 
-export default function Card(){
+export default function Card({title,body}){
     return (
             <div className="card-body">
         <div className="card-title">
-        Card Title
+        {title}
         </div>
-        <div className="card-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio ratione voluptatem nam?</div>
+        <div className="card-content">{body}</div>
         </div>
     )
 }

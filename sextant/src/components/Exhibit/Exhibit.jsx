@@ -1,6 +1,7 @@
 import '../../global.css'
 import './Exhibit.css'
 import Card from '../Card/Card.jsx'
+import IPAddress from '../IPAddress/IPAddress'
 
 export default function Exhibit(){
     return (
@@ -11,9 +12,8 @@ export default function Exhibit(){
         </div>
 
             <div className="card-holder">
-        <Card/>
-        <Card/>
-        <Card/>
+        <Card title="IPV4 Address" body={<IPAddress addressType="IPV4"/>}/>
+        <Card title="IPV6 Address" body={<IPAddress addressType="IPV6"/>}/>
         </div>
         </div>
         </div>
