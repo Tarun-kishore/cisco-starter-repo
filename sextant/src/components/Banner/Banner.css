@@ -1,0 +1,11 @@
+#navbar{
+    background-color: var(--primary-color);
+    height:4rem;
+}
+
+.title{
+    color:var(--secondary-color);
+    font-size: 3rem;
+    padding: 2rem 2rem 2rem 2rem;
+}
+

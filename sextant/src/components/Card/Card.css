@@ -1,0 +1,7 @@
+.card-body{
+    flex: 0 0 calc(33.33% - 1rem);
+    background:var(--card-color);
+    min-width:10rem;
+    border-radius:1rem;
+    padding:0.5rem;
+}
